@@ -6,11 +6,12 @@ import Toggle from './toggle'
 import * as serviceWorker from './serviceWorker';
 import LoginControl from './LoginController'
 import ListTest from './ListTest'
+import Calulator from './Temperature'
 // ReactDOM.render(
 //     <LoginControl />,
 //     document.getElementById('root')
 //   );
-ReactDOM.render(<ListTest />,document.getElementById('root'))
+ReactDOM.render(<Calulator />,document.getElementById('root'))
 //ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
